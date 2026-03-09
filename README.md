@@ -70,16 +70,16 @@ This project provides a **holistic performance view**, enabling stakeholders to 
 
 The dashboard is designed to support several key stakeholders.
 
-### Senior Management
+#### Senior Management
 Monitor overall business performance and revenue trends.
 
-### E-Commerce Operations Team
+#### E-Commerce Operations Team
 Track delivery performance and fulfillment efficiency.
 
-### Marketing & Growth Teams
+#### Marketing & Growth Teams
 Analyze customer purchasing behavior and device usage.
 
-### Business / Data Analysts
+#### Business / Data Analysts
 Explore sales drivers and identify improvement opportunities.
 
 ---
@@ -88,23 +88,23 @@ Explore sales drivers and identify improvement opportunities.
 
 The dashboard addresses several important business questions across four analytical areas.
 
-### Business Performance
+#### Business Performance
 - How is **GMV evolving over time**?
 - What is the relationship between **orders and revenue growth**?
 
-### Product & Category Performance
+#### Product & Category Performance
 - Which **product categories contribute most to GMV**?
 - Which categories generate the **highest profit margins**?
 
-### Customer Behavior
+#### Customer Behavior
 - Which **devices do customers use most frequently** to place orders?
 - How do **discounts affect purchasing behavior**?
 
-### Delivery Performance
+#### Delivery Performance
 - Which **shipping methods handle the highest volume of orders**?
 - How does **delivery performance impact order completion and satisfaction**?
 
-### Customer Segmentation
+#### Customer Segmentation
 - Which **customer segments contribute the most to GMV**?
 - Which regions show **strong repeat purchase behavior**?
 
@@ -115,8 +115,10 @@ The dashboard addresses several important business questions across four analyti
 ### 📌 Data Source  
 
 - **Source:** Internal company dataset  
-- **Format:** CSV  
-- **Granularity:** Transaction-level data (each row represents one order record)  
+- **File Format:** CSV  
+- **Total Orders:** 113,271  
+- **Total Columns:** 31  
+- **Data Granularity:** Order-level dataset where each row represents a single customer order
 
 The dataset contains transactional information from an e-commerce platform including order details, customer information, product data, delivery performance, and financial metrics.
 
@@ -131,37 +133,39 @@ All raw data is stored in a **single CSV dataset** containing order-level transa
 <details>
 <summary>View Dataset Columns</summary>
 
-- order_id  
-- customer_id  
-- order_created_date  
-- order_completed_date  
-- promised_date  
-- delivery_date  
-- status  
-- region  
-- Product  
-- Product_Category  
-- item_price  
-- Quantity  
-- order_value  
-- shipping_status  
-- sla_compliance  
-- device_type  
-- customer_segment  
-- payment_method  
-- is_canceled  
-- delivery_time_days  
-- ShippingMethod  
-- customer_first_name  
-- customer_last_name  
-- customer_city  
-- customer_state  
-- customer_country  
-- days_for_shipment_scheduled  
-- order_item_discount  
-- profit_per_order  
-- cost_of_goods_sold  
-- gross_profit  
+| Column | Data Type | Description |
+|------|-----------|-------------|
+| order_id | String | Unique identifier for each order |
+| customer_id | String | Unique identifier for the customer |
+| order_created_date | Date | Date when the order was placed |
+| order_completed_date | Date | Date when the order was completed |
+| promised_date | Date | Promised delivery date |
+| delivery_date | Date | Actual delivery date |
+| status | String | Order status (completed, pending, canceled) |
+| region | String | Geographic region where the order was placed |
+| Product | String | Name of the purchased product |
+| Product_Category | String | Category of the product (Office Supplies, Furniture, Technology) |
+| item_price | Decimal | Unit price of the product |
+| Quantity | Integer | Number of items purchased |
+| order_value | Decimal | Total order value |
+| shipping_status | String | Shipping status of the order |
+| sla_compliance | Boolean | Indicates whether delivery met SLA requirements |
+| device_type | String | Device used for purchase (Mobile, Desktop, etc.) |
+| customer_segment | String | Customer segment classification |
+| payment_method | String | Payment method used |
+| is_canceled | Boolean | Indicates if the order was canceled |
+| delivery_time_days | Integer | Number of days taken for delivery |
+| ShippingMethod | String | Delivery method used |
+| customer_first_name | String | Customer first name |
+| customer_last_name | String | Customer last name |
+| customer_city | String | Customer city |
+| customer_state | String | Customer state |
+| customer_country | String | Customer country |
+| days_for_shipment_scheduled | Integer | Scheduled number of days for shipment |
+| order_item_discount | Decimal | Discount applied to the order |
+| profit_per_order | Decimal | Profit generated from the order |
+| cost_of_goods_sold | Decimal | Cost associated with the sold product |
+| gross_profit | Decimal | Gross profit after deducting cost of goods |
 
 </details>
 
