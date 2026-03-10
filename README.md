@@ -173,15 +173,15 @@ The dashboard is designed using a **hypothesis-driven analytical framework** tha
 
 <img width="1150" alt="image" src="https://github.com/user-attachments/assets/f8396099-0cf4-435e-a2e2-382a75fdb9a3" />
 
-### Stage 1 - Business Understanding
+### 📍 Stage 1 - Business Understanding
 
 <img width="1150" alt="image" src="https://github.com/user-attachments/assets/d1748305-2fd9-436c-bbf0-8e45e6961248" />
 
-### Stage 2 - Metric Definition
+### 📍 Stage 2 - Metric Definition
 
 <img width="1150" alt="image" src="https://github.com/user-attachments/assets/01f73dbe-b6ec-4d6e-9769-cb22e71e6e07" />
 
-### Stage 3 - Analytical Design
+### 📍 Stage 3 - Analytical Design
 
 <img width="1150" alt="image" src="https://github.com/user-attachments/assets/250cbbff-354b-4967-a103-63a9ea525ec1" />
 
@@ -189,13 +189,13 @@ The dashboard is designed using a **hypothesis-driven analytical framework** tha
 
 <img width="1150" alt="image" src="https://github.com/user-attachments/assets/7cef0047-2819-4100-b86d-47d80beb2699" />
 
-### Stage 4 - Data Preparation
+### 📍 Stage 4 - Data Preparation
 
 <img width="1150" alt="image" src="https://github.com/user-attachments/assets/8998a1da-5c70-43be-8595-d077f3f0eead" />
 
 <img width="1150" alt="image" src="https://github.com/user-attachments/assets/3a796f38-8603-4c17-af70-ed627fcf650d" />
 
-### Stage 5 - Delivery
+### 📍 Stage 5 - Delivery
 
 <img width="1150" alt="image" src="https://github.com/user-attachments/assets/3e92dee4-a9c9-4fdf-bb3f-2a3f480ded72" />
 
