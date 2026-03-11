@@ -163,7 +163,7 @@ All raw data is stored in a **single CSV dataset** containing order-level transa
 
 ### 2️⃣ Data Relationships:
 
-<img width="1400" alt="image" src="https://github.com/user-attachments/assets/27488b7b-553b-42f8-b583-5e49f1ca9cca" />
+<img width="1500" alt="image" src="https://github.com/user-attachments/assets/27488b7b-553b-42f8-b583-5e49f1ca9cca" />
 
 ---
 
@@ -211,7 +211,7 @@ The dashboard is designed using a **hypothesis-driven analytical framework** tha
 
 ### I. Business Overview
 
-<img width="1350" alt="image" src="https://github.com/user-attachments/assets/8679337e-4d21-419e-9e3e-4ca3e77c5e15" />
+<img width="1500" alt="image" src="https://github.com/user-attachments/assets/8679337e-4d21-419e-9e3e-4ca3e77c5e15" />
 
 ### 📌 Key Findings:
 
@@ -257,7 +257,7 @@ Premium shipping options such as **Same Day (~5.9K orders)** account for a much 
 
 ### II. Shopping Behavior
 
-<img width="1350" alt="image" src="https://github.com/user-attachments/assets/ef6792a8-e401-454d-80f8-4edc9031886a" />
+<img width="1500" alt="image" alt="image" src="https://github.com/user-attachments/assets/b019f121-c0aa-4890-b401-4c20ebcb971b" />
 
 ### 📌 Key Findings:
 
@@ -301,7 +301,7 @@ All segments show **similar AOV (~418–423)** and **repeat rates (~0.88)**, wit
 
 ### III. Delivery Performance
 
-<img width="1350" alt="image" src="https://github.com/user-attachments/assets/707c6cf5-dc7a-4941-a1ae-774679c8019f" />
+<img width="1500" alt="image" src="https://github.com/user-attachments/assets/707c6cf5-dc7a-4941-a1ae-774679c8019f" />
 
 ### 📌 Key Findings:
 
@@ -353,7 +353,7 @@ Despite **stable revenue growth and controlled cancellation rates**, the **persi
 
 ### IV. Customer Segmentation
 
-<img width="1350" alt="image" src="https://github.com/user-attachments/assets/31479c26-f97e-4df8-af32-71d8e3909fe5" />
+<img width="1500" alt="image" src="https://github.com/user-attachments/assets/cffc6cd3-cc7a-41c3-9d24-18a3a0d786e1" />
 
 ### 📌 Key Findings:
 
